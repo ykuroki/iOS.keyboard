@@ -17,6 +17,18 @@
 		B18029FD19AC4EF700CC5960 /* KaomojiKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B18029F419AC4EF700CC5960 /* KaomojiKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B1802A0619AC4FD600CC5960 /* Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = B1802A0519AC4FD600CC5960 /* Keyboard.m */; };
 		B1802A0A19AC50DD00CC5960 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1802A0919AC50DD00CC5960 /* Keyboard.xib */; };
+		B1802A1319AD746900CC5960 /* Smile.m in Sources */ = {isa = PBXBuildFile; fileRef = B1802A1219AD746900CC5960 /* Smile.m */; };
+		B1802A1519AD747800CC5960 /* Smile.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1802A1419AD747800CC5960 /* Smile.xib */; };
+		B1802A1A19AD807300CC5960 /* Cry.m in Sources */ = {isa = PBXBuildFile; fileRef = B1802A1919AD807300CC5960 /* Cry.m */; };
+		B1802A1C19AD808100CC5960 /* Cry.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1802A1B19AD808100CC5960 /* Cry.xib */; };
+		B1802A2019ADD60F00CC5960 /* Joy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1802A1F19ADD60F00CC5960 /* Joy.m */; };
+		B1802A2219ADD61E00CC5960 /* Joy.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1802A2119ADD61E00CC5960 /* Joy.xib */; };
+		B1802A2619ADD67200CC5960 /* Angry.m in Sources */ = {isa = PBXBuildFile; fileRef = B1802A2519ADD67200CC5960 /* Angry.m */; };
+		B1802A2819ADD67F00CC5960 /* Angry.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1802A2719ADD67F00CC5960 /* Angry.xib */; };
+		B1802A2C19ADD6E000CC5960 /* Scream.m in Sources */ = {isa = PBXBuildFile; fileRef = B1802A2B19ADD6E000CC5960 /* Scream.m */; };
+		B1802A2E19ADD6EC00CC5960 /* Scream.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1802A2D19ADD6EC00CC5960 /* Scream.xib */; };
+		B1802A3219ADD75500CC5960 /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = B1802A3119ADD75500CC5960 /* Setting.m */; };
+		B1802A3419ADD76300CC5960 /* Setting.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1802A3319ADD76300CC5960 /* Setting.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +89,24 @@
 		B1802A0419AC4FD600CC5960 /* Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keyboard.h; sourceTree = "<group>"; };
 		B1802A0519AC4FD600CC5960 /* Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keyboard.m; sourceTree = "<group>"; };
 		B1802A0919AC50DD00CC5960 /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		B1802A1119AD746900CC5960 /* Smile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Smile.h; path = Pages/Smile.h; sourceTree = "<group>"; };
+		B1802A1219AD746900CC5960 /* Smile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Smile.m; path = Pages/Smile.m; sourceTree = "<group>"; };
+		B1802A1419AD747800CC5960 /* Smile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Smile.xib; sourceTree = "<group>"; };
+		B1802A1819AD807300CC5960 /* Cry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cry.h; path = Pages/Cry.h; sourceTree = "<group>"; };
+		B1802A1919AD807300CC5960 /* Cry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cry.m; path = Pages/Cry.m; sourceTree = "<group>"; };
+		B1802A1B19AD808100CC5960 /* Cry.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cry.xib; sourceTree = "<group>"; };
+		B1802A1E19ADD60F00CC5960 /* Joy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Joy.h; path = Pages/Joy.h; sourceTree = "<group>"; };
+		B1802A1F19ADD60F00CC5960 /* Joy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Joy.m; path = Pages/Joy.m; sourceTree = "<group>"; };
+		B1802A2119ADD61E00CC5960 /* Joy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Joy.xib; sourceTree = "<group>"; };
+		B1802A2419ADD67200CC5960 /* Angry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Angry.h; path = Pages/Angry.h; sourceTree = "<group>"; };
+		B1802A2519ADD67200CC5960 /* Angry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Angry.m; path = Pages/Angry.m; sourceTree = "<group>"; };
+		B1802A2719ADD67F00CC5960 /* Angry.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Angry.xib; sourceTree = "<group>"; };
+		B1802A2A19ADD6E000CC5960 /* Scream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Scream.h; path = Pages/Scream.h; sourceTree = "<group>"; };
+		B1802A2B19ADD6E000CC5960 /* Scream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Scream.m; path = Pages/Scream.m; sourceTree = "<group>"; };
+		B1802A2D19ADD6EC00CC5960 /* Scream.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Scream.xib; sourceTree = "<group>"; };
+		B1802A3019ADD75500CC5960 /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Setting.h; path = Pages/Setting.h; sourceTree = "<group>"; };
+		B1802A3119ADD75500CC5960 /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Setting.m; path = Pages/Setting.m; sourceTree = "<group>"; };
+		B1802A3319ADD76300CC5960 /* Setting.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Setting.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +197,7 @@
 		B18029F519AC4EF700CC5960 /* KaomojiKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				B1802A1019AD739700CC5960 /* Pages */,
 				B18029F819AC4EF700CC5960 /* KeyboardViewController.h */,
 				B18029F919AC4EF700CC5960 /* KeyboardViewController.m */,
 				B18029F619AC4EF700CC5960 /* Supporting Files */,
@@ -183,6 +214,79 @@
 				B18029F719AC4EF700CC5960 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1802A1019AD739700CC5960 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				B1802A2F19ADD71400CC5960 /* Setting */,
+				B1802A2919ADD6C300CC5960 /* Scream */,
+				B1802A2319ADD65E00CC5960 /* Angry */,
+				B1802A1D19ADD5DC00CC5960 /* Joy */,
+				B1802A1719AD804300CC5960 /* Cry */,
+				B1802A1619AD7FE300CC5960 /* Smile */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		B1802A1619AD7FE300CC5960 /* Smile */ = {
+			isa = PBXGroup;
+			children = (
+				B1802A1119AD746900CC5960 /* Smile.h */,
+				B1802A1219AD746900CC5960 /* Smile.m */,
+				B1802A1419AD747800CC5960 /* Smile.xib */,
+			);
+			name = Smile;
+			sourceTree = "<group>";
+		};
+		B1802A1719AD804300CC5960 /* Cry */ = {
+			isa = PBXGroup;
+			children = (
+				B1802A1819AD807300CC5960 /* Cry.h */,
+				B1802A1919AD807300CC5960 /* Cry.m */,
+				B1802A1B19AD808100CC5960 /* Cry.xib */,
+			);
+			name = Cry;
+			sourceTree = "<group>";
+		};
+		B1802A1D19ADD5DC00CC5960 /* Joy */ = {
+			isa = PBXGroup;
+			children = (
+				B1802A1E19ADD60F00CC5960 /* Joy.h */,
+				B1802A1F19ADD60F00CC5960 /* Joy.m */,
+				B1802A2119ADD61E00CC5960 /* Joy.xib */,
+			);
+			name = Joy;
+			sourceTree = "<group>";
+		};
+		B1802A2319ADD65E00CC5960 /* Angry */ = {
+			isa = PBXGroup;
+			children = (
+				B1802A2419ADD67200CC5960 /* Angry.h */,
+				B1802A2519ADD67200CC5960 /* Angry.m */,
+				B1802A2719ADD67F00CC5960 /* Angry.xib */,
+			);
+			name = Angry;
+			sourceTree = "<group>";
+		};
+		B1802A2919ADD6C300CC5960 /* Scream */ = {
+			isa = PBXGroup;
+			children = (
+				B1802A2A19ADD6E000CC5960 /* Scream.h */,
+				B1802A2B19ADD6E000CC5960 /* Scream.m */,
+				B1802A2D19ADD6EC00CC5960 /* Scream.xib */,
+			);
+			name = Scream;
+			sourceTree = "<group>";
+		};
+		B1802A2F19ADD71400CC5960 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				B1802A3019ADD75500CC5960 /* Setting.h */,
+				B1802A3119ADD75500CC5960 /* Setting.m */,
+				B1802A3319ADD76300CC5960 /* Setting.xib */,
+			);
+			name = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +409,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1802A2E19ADD6EC00CC5960 /* Scream.xib in Resources */,
+				B1802A3419ADD76300CC5960 /* Setting.xib in Resources */,
+				B1802A1C19AD808100CC5960 /* Cry.xib in Resources */,
+				B1802A1519AD747800CC5960 /* Smile.xib in Resources */,
+				B1802A2219ADD61E00CC5960 /* Joy.xib in Resources */,
+				B1802A2819ADD67F00CC5960 /* Angry.xib in Resources */,
 				B1802A0A19AC50DD00CC5960 /* Keyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +444,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1802A1319AD746900CC5960 /* Smile.m in Sources */,
+				B1802A2C19ADD6E000CC5960 /* Scream.m in Sources */,
+				B1802A3219ADD75500CC5960 /* Setting.m in Sources */,
+				B1802A2019ADD60F00CC5960 /* Joy.m in Sources */,
 				B1802A0619AC4FD600CC5960 /* Keyboard.m in Sources */,
+				B1802A2619ADD67200CC5960 /* Angry.m in Sources */,
+				B1802A1A19AD807300CC5960 /* Cry.m in Sources */,
 				B18029FA19AC4EF700CC5960 /* KeyboardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +680,7 @@
 				B1802A0119AC4EF700CC5960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

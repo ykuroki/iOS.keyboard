@@ -10,37 +10,70 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJr-Ux-WJY">
-                    <rect key="frame" x="0.0" y="149" width="320" height="67"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xSB-qh-YTt">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                     <subviews>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="esl-CP-gjj">
-                            <rect key="frame" x="0.0" y="0.0" width="640" height="67"/>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jGU-Vp-wUD">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="177"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        </view>
+                    </subviews>
+                </scrollView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJr-Ux-WJY">
+                    <rect key="frame" x="0.0" y="177" width="640" height="40"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="esl-CP-gjj">
+                            <rect key="frame" x="0.0" y="0.0" width="640" height="40"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hli-IS-1Gb">
-                                    <rect key="frame" x="245" y="19" width="69" height="30"/>
+                                    <rect key="frame" x="15" y="8" width="54" height="26"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <state key="normal" title="glove">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LH4-T0-qYj">
-                                    <rect key="frame" x="331" y="19" width="73" height="30"/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <state key="normal" title="delete">
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRX-RP-Hog">
-                                    <rect key="frame" x="145" y="19" width="89" height="30"/>
+                                    <rect key="frame" x="189" y="7" width="40" height="30"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <state key="normal" title="dummy">
+                                    <state key="normal" title="cry">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0A-D2-8E6">
-                                    <rect key="frame" x="36" y="19" width="89" height="30"/>
+                                    <rect key="frame" x="93" y="8" width="55" height="28"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <state key="normal" title="hoge">
+                                    <state key="normal" title="smile">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAc-Lx-ALG">
+                                    <rect key="frame" x="270" y="7" width="30" height="30"/>
+                                    <state key="normal" title="joy">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zyc-XR-x5a">
+                                    <rect key="frame" x="347" y="7" width="39" height="30"/>
+                                    <state key="normal" title="angry">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1LN-T1-I0s">
+                                    <rect key="frame" x="415" y="8" width="51" height="30"/>
+                                    <state key="normal" title="scream">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-1Z-VzZ">
+                                    <rect key="frame" x="496" y="8" width="47" height="30"/>
+                                    <state key="normal" title="setting">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LH4-T0-qYj">
+                                    <rect key="frame" x="567" y="9" width="50" height="28"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <state key="normal" title="delete">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                 </button>
@@ -58,15 +91,22 @@
                     </constraints>
                 </scrollView>
             </subviews>
-            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="angryKey" destination="Zyc-XR-x5a" id="VEB-Kt-Zp5"/>
+                <outlet property="changeScrollView" destination="xSB-qh-YTt" id="x18-dZ-iVW"/>
+                <outlet property="changeView" destination="jGU-Vp-wUD" id="JWr-nD-x2D"/>
+                <outlet property="cryKey" destination="mRX-RP-Hog" id="PP7-Iz-GTG"/>
                 <outlet property="deleteKey" destination="LH4-T0-qYj" id="NHa-SP-Jh3"/>
                 <outlet property="globeKey" destination="hli-IS-1Gb" id="Lw4-74-HBx"/>
+                <outlet property="joyKey" destination="EAc-Lx-ALG" id="hdR-2r-GBy"/>
+                <outlet property="screamKey" destination="1LN-T1-I0s" id="vE5-HL-DTh"/>
+                <outlet property="settingKey" destination="7Ew-1Z-VzZ" id="c4b-gb-Mkv"/>
+                <outlet property="smileKey" destination="v0A-D2-8E6" id="1b8-Ke-U3S"/>
                 <outlet property="tabScrollView" destination="gJr-Ux-WJY" id="aAW-Gh-Z5M"/>
             </connections>
-            <point key="canvasLocation" x="447" y="308"/>
+            <point key="canvasLocation" x="625" y="308"/>
         </view>
     </objects>
 </document>
